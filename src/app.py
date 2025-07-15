@@ -22,6 +22,12 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 # In-memory activity database
 activities = {
     "Chess Club": {
+    "GitHub Skills": {
+        "description": "Learn practical coding and collaboration skills with GitHub. Includes certifications and project work.",
+        "schedule": "Wednesdays, 4:30 PM - 5:30 PM",
+        "max_participants": 25,
+        "participants": []
+    },
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "max_participants": 12,
